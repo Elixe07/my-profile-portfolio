@@ -16,6 +16,16 @@ function selectMenu() {
     navMenu.classList.toggle("active");
 }
 
+document.addEventListener("click", (e) => {
+    const isClickInsideMenu = navMenu.contains(e.target);
+    const isClickOnBars = bars.contains(e.target);
+
+    if (!isClickInsideMenu && !isClickOnBars && navMenu.classList.contains("active")) {
+        navMenu.classList.remove("active");
+        bars.classList.remove("active");
+    }
+});
+
 const texts = ["FRONT-END DEVELOPER", "IT SYSTEM SUPPORT", "IT END USER"];
 
 let count = 0;
