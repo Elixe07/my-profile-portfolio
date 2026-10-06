@@ -8,6 +8,8 @@
 
 .nav-name{
     color: white;
+    margin-left: 25px;
+    text-align: left;
 }
 
 ul{
@@ -56,6 +58,95 @@ ul{
 .nav-menu li a{
     color: white;
     text-decoration: none;
+}
+
+.about-me{
+    text-align: center;
+}
+
+.about-me h1{
+    color: #0a192f;
+    text-shadow: 0 4px 10px rgba(17, 230, 17, 0.1);
+}
+
+.about-me h2{
+    color: #0a192f;
+}
+
+.about-me #changing-text{
+    color: #64ffda;
+    text-shadow: 2px 2px 8px rgba(0, 255, 255, 0.6), 0 0 15px rgba(0, 255, 255, 0.4);
+    font-weight: bold;
+}
+
+.My-Skills{
+    margin-left: 15px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.2;
+    padding: 0 10px;
+}
+
+.My-Skills span{
+    color: #0a192f;
+    font-size: 21px;
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+}
+
+#my-projects h3{
+    text-align: center;
+    font-size: 21px;
+    color: #0a192f;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#my-projects p{
+    margin-left: 15px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.project-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.project-cards p{
+    font-size: 18px;
+    flex-grow: 1;
+}
+
+.project-links{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
+.project-links a{
+    border: 2px solid #000;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    background: #0a192f;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.project-links a:hover{
+    background: #64ffda;
+    color: #0a192f;
 }
 
 footer{
